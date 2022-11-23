@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>My works presentation web site</title>
+    <style>
+      body {
+          margin: 0 auto;
+      } 
+
+      a {
+          text-style: none;
+      }
+
+      a:hover {
+          color: yellow;
+          text-decoration: none;
+          font-style: bold;
+          font-size: 18px;
+          background-color: red;
+          
+      }
+      ul {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 200px 200px 200px;
+          column-count: ;
+          gap: 10px;
+
+      }
+
+      ul > li {
+        border: 2px solid aqua;
+        background: rgb(123, 212, 175);
+        border-radius: 10px;
+        margin: 5px;
+        padding: 10px;
+      } 
+
+      h1 {
+        justify-content: space-around;
+      }     
+
+      ul {
+        list-style-type: square ;
+        list-style-position: inside;
+        padding: 1em;
+        margin: 0em;
+      } 
+
+      .button {
+        /* Align buttons with the text fields */
+        padding-left: 90px; /* same size as the label elements */
+      }
+
+      button {
+        /* This extra margin represent roughly the same space as the space
+        between the labels and their text fields */
+        margin-left: .5em;
+      }
+
+section {
+
+ 
+
+  .panels {
+   position: relative;
+   width: 450px;
+   height: 352px;
+  }
+
+  .panels article {
+    background-color: #b60000;
+    color: white;
+    position: absolute;
+    padding: 10px 20px;
+    height: 352px;
+    top: 0;
+    left: 0;
+  }
+
+  .panels .active-panel {
+    z-index: 1;
+  }
+
+    </style>
+
+  </head>
+  <body>
+  <header>
+    <h1>作品集展示</h1>
+  </header>
+    <section>  
+      <ul class="subject">
+        <li class="active"><a href=#php>PHP + MySQL</a></li>
+        <li class=""><a href=#jsp>JSP</a></li>
+        <li class=""><a href=#java>Java</a></li> 
+        <li class=""><a href=#bash>Linux Bash Shell</a></li>      
+        <li class=""><a href=#circuit>電路板製作</a></li>
+        <li class=""><a href=#8051>8051</a></li>        
+        <li class=""><a href=#other>其他</a></li>
+      </ul>
+    
+
+<div class="panels">  
+      
+        <article class="active-panel" id="php">PHP + MySQL
+          <ol>
+            <li>
+              <label for="name"><a href="https://youtu.be/M3oe7Y3vVwI" target="_blank">餐廳管理系統 (designed by MySQL+PHP)</a></label>
+            </li>
+          </ol> 
+        </article>
+        <article class="" id="jsp">JSP
+          <ol>
+            <li>
+              <label for="mail"><a href="https://youtu.be/TKBB3c0JBmE" target="_blank">微網誌4 - JSP / EL / Scriptlet (請開字幕)</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/eJg5OI4_hV8" target="_blank">微網誌3 - 字元過濾器、編碼設定、模型處理 (請開字幕)</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/XjQlpmk6evg" target="_blank">微網誌2 - 留言板功能 (請開字幕)</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/aWFBH8FeBG0" target="_blank">微網誌1 - 註冊、建檔、登入 (請開字幕)</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/V2PY5c1sEDU" target="_blank">利用網路程式接收外部信箱郵件並作簡單管理 ~＿</a></label>
+            </li>
+          </ol>
+        </article>
+        <article class="" id="java">Java
+          <ol>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/Qa2ZBR9YCjU" target="_blank">自寫俄羅斯方塊遊戲 (失敗畫面) by Java</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/HVuNgw89U1s" target="_blank">自寫俄羅斯方塊遊戲 (過關畫面) by Java</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/FyONa0ZSLjo" target="_blank">Java 計算機模擬程式操作示範</a></label>
+            </li> 
+          </ol>
+        </article> 
+        <article class="" id="bash">Linux Bash Shell
+          <ol>
+            <li>
+              <label for="msg"><a href="https://youtu.be/Rz6I4BgxRZw" target="_blank">CD 資料庫管理程式 ~</a></label>
+            </li>
+          </ol>
+        </article>      
+        <article class="" id="circuit">電路板製作
+          <ol>
+            <li>
+              <label for="msg"><a href="https://youtu.be/lYZt_Djydxg" target="_blank">點唱機電路板製作全記錄</a></label>
+            </li>
+          </ol>
+        </article>
+        <article class="" id="8051">8051
+          <ol>
+            <li>
+              <label for="msg"><a href="https://youtu.be/moQJW8pPWE0" target="_blank">8x8雙色點矩陣 by Keil C</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/4dLe8dYoA_s" target="_blank">8051簡易計算機KeyPad by Keil C</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/0ROQZsIvm4o" target="_blank">8051簡易計算機 by Keil C</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/1Q5tjUesI1g" target="_blank">8x8點矩陣LED 練習用 by Keil C</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/yeJMcbOZgCs" target="_blank">勝利之翼 -  練習用 by Keil C</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/8rWY7Xf0SJA" target="_blank">點唱機練習用 by KeilC~</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/hStylQZ9_D8" target="_blank">兩個MCS 51互相傳送資料(負載驅動)_32</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/rTsFLqNfX1k" target="_blank">矩陣鍵盤7段顯示器顯示數字 19(用小鍵盤取代按鈕)</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/GW4N-Ea5MPM" target="_blank">矩陣鍵盤LED顯示數字 19(用小鍵盤取代按鈕)</a></label>
+            </li>        
+            <li>
+              <label for="msg"><a href="https://youtu.be/97nNlQIYMOo" target="_blank">大功率閃爍警告燈</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/-F_I-SPs7gg" target="_blank">LCD顯示自建圖案動畫40</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/992TwCD3ZVI" target="_blank">LCD顯示 39</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/NoOnTr55Efs" target="_blank">LCD顯示自建圖案 38</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/5cSn_-PnXZQ" target="_blank">警告聲產生器 37</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/RRPFmrWyCeU" target="_blank">鈴聲產生器 36</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/5oqRPdtVMiM" target="_blank">忙音產生器 35</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/wscmTV_khAY" target="_blank">電子琴 34</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/pO4H2shSPO4" target="_blank">七段顯示器顯示數字 33</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/r2czoHjFBKg" target="_blank">兩個MCS 51互相傳送資料 32</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/gNfjXovu-lc" target="_blank">用串列埠單向傳送資料 31</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/FSJocvOe184" target="_blank">單顆8051自傳自送資料 30</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/gas6MWLS8LY" target="_blank">用串列埠擴充輸出埠2 29</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/qyINvYHbI3c" target="_blank">用串列埠擴充輸出埠1 28</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/fKBVdrxrcvE" target="_blank">外部中斷信號改變輸出狀態 27</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/LHdGh2XJW-Q" target="_blank">用計數中斷改變輸出狀態 26</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/eVgJSblOwP8" target="_blank">用計數器輸入10個脈波改變輸出狀態 25</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/ByB0FnDof7U" target="_blank">用計數器輸入5個脈波改變輸出狀態 24</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/RXmuT0yMsMA" target="_blank">用按鈕控制動作狀態2 23</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/YI8z8CTOhVs" target="_blank">外部中斷信號改變輸出狀態1 22</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/11s7hjsEr2I" target="_blank">使用計時器中斷做走馬燈 21</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/PhNqSG-rNOw" target="_blank">使用計時器做走馬燈 20</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/M4IS9zXFglI" target="_blank">矩陣鍵盤LED顯示數字 19</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/IaprgZSnE2k" target="_blank">用開關選擇動作狀態 18</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/914TbojJJOM" target="_blank">用按鈕控制動作狀態 17</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/Lr7pCY6U4kA" target="_blank">用按鈕代替開關選擇動作狀態 16</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/GRfibbNx0Uc" target="_blank">廣告燈2 15</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/kLGIr23JM-Y" target="_blank">廣告燈 14</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/BS4owEJcNqc" target="_blank">霹靂燈 13</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/Gv-8HpXEttk" target="_blank">閃爍燈 12</a></label>
+            </li>
+            <li>
+              <label for="msg"><a href="https://youtu.be/MI1HeYQ_mro" target="_blank">MOV04486.MPG</a></label>
+            </li>
+          </ol>
+        </article>        
+        <article class="" id="other">其他
+          <ol>
+            <li>
+              <label for="msg"><a href="https://youtu.be/Mcy3XT_HCjU" target="_blank">自製 12V 電源供應器</a></label>
+            </li>
+          </ol>
+        </article>
+     
+    </div>
+    </section>
+    <footer>
+    </footer>
+
+<script>
+
+var tabs = document.querySelectorAll('.subject li a');
+var panels = document.querySelectorAll('.panels article');
+
+for(i = 0; i < tabs.length; i++) {
+  var tab = tabs[i];
+  setTabHandler(tab, i);
+}
+
+function setTabHandler(tab, tabPos) {
+  tab.onclick = function() {
+    for(i = 0; i < tabs.length; i++) {
+      tabs[i].className = '';
+    }
+
+    tab.className = 'active';
+
+    for(i = 0; i < panels.length; i++) {
+      panels[i].className = '';
+    }
+
+    panels[tabPos].className = 'active-panel';
+  }
+}
+
+</script>
+
+
+  </body>
+</html>
